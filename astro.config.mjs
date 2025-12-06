@@ -6,5 +6,6 @@ import icon from 'astro-icon';
 // https://astro.build/config
 export default defineConfig({
   integrations: [icon()],
-  site: "https://JuanMa216.github.io/astro-linktree/"
+  site: "https://JuanMa216.github.io/astro-linktree/",
+  base: "/astro-linktree/",
 });
